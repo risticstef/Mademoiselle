@@ -1,0 +1,41 @@
+$trend-title-font: "BodoniSvtyTwoITCTT-Book";
+$date-color: #1E1E1E;
+$font-trend: 'Lato', sans-serif;
+
+.trends-section{
+    margin-bottom: 60px;
+    h1{
+        font-family: $trend-title-font;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: 5px;
+    }
+    .trend-item{
+            figure{
+                margin-bottom: 40px;
+                .trend-content{
+                    font-size: 1.6rem;
+                    line-height: 2.4rem;
+                    width: 80%;
+                    padding: 10px;
+                    background-color: $white;
+                    position: absolute;
+                    bottom: -90px;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    
+                    .post-date{
+                        font-family: $trend-title-font;
+                        color: $date-color;
+                    }
+
+                    p{
+                        font-family: $font-trend;
+                        height: 2 * 2.4rem;
+                        overflow: hidden;
+                    }
+                }   
+            }
+               
+    }
+}

@@ -8,5 +8,17 @@ and open the template in the editor.
     Author     : frontend
 */
 
+@font-face {
+    font-family: "BodoniSvtyTwoITCTT-Book";
+    src: url("./fonts/Bodoni-Book.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/Bodoni-Book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/Bodoni-Book.otf") format("opentype"), /* Open Type Font */
+      url("./fonts/Bodoni-Book.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/Bodoni-Book.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/Bodoni-Book.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/Bodoni-Book.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
 
 

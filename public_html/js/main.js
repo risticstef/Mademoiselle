@@ -22,4 +22,15 @@ $(document).ready(function(){
     });
     animation();
 
+    //OWL CAROUSEL
+    if($('.team-members-slider').length > 0) {
+        $('.owl-carousel').owlCarousel({
+
+            loop: true,
+            autoplay: true,
+            items: 1,
+            margin: 0
+        });
+    }
+
 })

@@ -1,4 +1,26 @@
-
+$body-text-color: #1E1E1E;
 img{
     max-width: 100%;
+}
+
+body{
+    color: $body-text-color;
+}
+
+h1, .h1{
+    font-family: "BodoniSvtyTwoITCTT-Book";
+}
+
+h2, .h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.title-line:after{
+    content: '';
+    display: block;
+    width: 74px;
+    height: 1px;
+    background-color: $warning;
+    margin-top: 15px;
+    transition: all 1s linear;
 }

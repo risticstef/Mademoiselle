@@ -1,0 +1,30 @@
+.team-section{
+    padding: 50px 0;
+    h1{
+        margin-bottom: 50px;
+        letter-spacing: 5px;
+        line-height: 4.5rem;
+        font-size: 3rem;
+    }
+    .team-member{
+        border: 1px solid #ECD9D9;
+        padding: 54px 10px;
+        h2{
+            font-size: 3rem;
+            line-height: 2.7rem;
+            font-weight: $font-weight-normal;
+        }
+        p{
+            line-height: 2.3rem;
+        }
+    }
+}
+
+
+
+@media(min-width: 1200px){
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: -30px;
+        margin-left: 55px;
+    }
+}

@@ -23,11 +23,17 @@ header{
     } // .navbar-toggler end
 
     .navbar-nav{
+        
         a{
             font-size: 1.4rem;
             line-height: 1.7rem;
             padding: 5px 10px;
             text-align: center;
+            border-bottom: 1px solid transparent;
+            &:hover{
+                border-bottom: 1px solid $warning;
+            }
+            
         }
     }
 
