@@ -11184,6 +11184,23 @@ header .navbar-nav a.active {
   margin: 70px 0 50px;
 }
 
+.single-trend-section {
+  padding: 180px 0;
+}
+
+.single-trend-section .trend-content h2 {
+  font-size: 4.4rem;
+  line-height: 5rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.single-trend-section .trend-content p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
 .team-section {
   padding: 50px 0;
 }
