@@ -11039,6 +11039,10 @@ header .navbar-nav a:hover {
   border-bottom: 1px solid #ECD9D9;
 }
 
+header .navbar-nav a.active {
+  border-bottom: 1px solid #ECD9D9 !important;
+}
+
 @media (min-width: 768px) {
   .navbar-brand img {
     width: 50%;
@@ -11083,7 +11087,7 @@ header .navbar-nav a:hover {
 
 @media (min-width: 768px) {
   .lead-page-section {
-    padding: 30px 0 50px;
+    padding: 60px 0 90px;
     margin-bottom: 20px;
   }
   .lead-page-section h1 {
@@ -11095,7 +11099,7 @@ header .navbar-nav a:hover {
 
 @media (min-width: 1140px) {
   .lead-page-section {
-    padding: 150px 0 267px;
+    padding: 200px 0;
     margin-bottom: 0px;
   }
 }
@@ -11176,6 +11180,10 @@ header .navbar-nav a:hover {
   }
 }
 
+.services-page {
+  margin: 70px 0 50px;
+}
+
 .team-section {
   padding: 50px 0;
 }
@@ -11229,5 +11237,27 @@ footer .social a:hover {
 footer .copyright {
   font-size: 1.2rem;
   line-height: 4.1rem;
+}
+
+.about-article h2 {
+  font-size: 4.4rem;
+  line-height: 5.5rem;
+  margin-bottom: 30px;
+}
+
+.about-article .about-content-one {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 300;
+}
+
+.about-article .about-content-two {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+.about-article figure {
+  margin: 46px 0;
 }
 /*# sourceMappingURL=theme.css.map */

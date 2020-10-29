@@ -33,6 +33,9 @@ header{
             &:hover{
                 border-bottom: 1px solid $warning;
             }
+            &.active{
+                border-bottom: 1px solid $warning !important;
+            }
             
         }
     }
