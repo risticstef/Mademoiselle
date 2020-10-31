@@ -11073,6 +11073,12 @@ header .navbar-nav a.active {
   font-family: "BodoniSvtyTwoITCTT-Book";
 }
 
+.lead-page-section .btn-not-found {
+  background-color: transparent;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
 @media (min-width: 556px) {
   .lead-page-section {
     padding: 40px 0 167px;
