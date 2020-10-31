@@ -11277,4 +11277,17 @@ footer .copyright {
 .about-article figure {
   margin: 46px 0;
 }
+
+.blog-page {
+  padding: 100px 0 10px;
+}
+
+.blog-page .trend-item {
+  margin-bottom: 40px;
+}
+
+.blog-page .page-item .page-link {
+  color: #1E1E1E;
+  font-family: "BodoniSvtyTwoITCTT-Book";
+}
 /*# sourceMappingURL=theme.css.map */

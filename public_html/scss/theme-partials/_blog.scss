@@ -1,0 +1,17 @@
+$nav-font-family: "BodoniSvtyTwoITCTT-Book";
+
+.blog-page{
+    padding: 100px 0 10px;
+
+    .trend-item{
+        margin-bottom: 40px;
+    }
+
+    .page-item{
+        .page-link{
+            color: $gray-900;
+            font-family: $nav-font-family;
+        }
+        
+    }
+}

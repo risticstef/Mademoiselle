@@ -33,4 +33,15 @@ $(document).ready(function(){
         });
     }
 
+    // if($('.blog-slider').length > 0) {
+    //     $('.owl-carousel').owlCarousel({
+
+    //         loop: true,
+    //         autoplay: false,
+    //         nav: true,
+    //         items: 1,
+    //         margin: 0
+    //     });
+    // }
+
 })
