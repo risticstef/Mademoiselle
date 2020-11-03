@@ -1,3 +1,5 @@
+$font-placeholder: "BodoniSvtyTwoITCTT-Book";
+
 .about-article{
     h2{
         font-size: 4.4rem;
@@ -16,5 +18,16 @@
     }
     figure{
         margin: 46px 0;
+    }
+}
+
+.about-news{
+    .form-control{
+        height: 55px !important;
+        &::placeholder{
+            font-style: italic;
+            font-weight: $font-weight-normal;
+            font-family: $font-placeholder;
+        }
     }
 }

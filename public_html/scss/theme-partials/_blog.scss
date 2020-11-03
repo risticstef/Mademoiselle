@@ -17,8 +17,19 @@ $nav-font-family: "BodoniSvtyTwoITCTT-Book";
 }
 
 .single-blog-section{
+    padding: 100px 0;
+    .title-tag{
+        a{
+            font-family: $nav-font-family;
+            font-style: italic;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
     .first-part{
-        padding: 100px 0;
+        // padding: 100px 0;
+        margin-bottom: 100px;
         h2{
             font-size: 4.4rem;
             line-height: 5rem;
@@ -32,10 +43,27 @@ $nav-font-family: "BodoniSvtyTwoITCTT-Book";
     }
 
     .second-part{
-        p{
-            line-height: 2.6rem;
-            font-weight: $font-weight-light;
+        .about-article{
+            margin-bottom: 50px;
+            p{
+                line-height: 2.6rem;
+                font-weight: $font-weight-light;
+            }
         }
     }
+
+    .news-tags{
+        a{
+            text-transform: lowercase;
+            font-family: $nav-font-family;
+        }
+
+        .tag-title{
+            font-family: $nav-font-family;
+            font-weight: $font-weight-medium;
+            font-style: italic;
+        }
+    }
+    
     }
     

@@ -1,0 +1,53 @@
+
+
+.contact-section{
+    padding: 75px 0;
+    h1{
+        font-size: 3rem;
+        line-height: 4.5rem !important;
+    }
+
+    .form-control{
+        background-color: rgba(#253D61, 0.02);
+        border: none;
+        height: 40px !important;
+        line-height: 2.5rem;
+        padding: 0 10px;
+
+        &::placeholder{
+            font-weight: $font-weight-light;
+        }
+
+    }
+
+    textarea.form-control{
+        height: 200px !important;
+        resize: none;
+    }
+
+    .btn{
+        font-size: 1.4rem;
+    }
+
+    .error-msg *{
+        color: $danger;
+        font-size: 1.4rem;
+    }
+}
+
+@media(min-width:992px){
+    .contact-section{
+        padding: 75px 0 128px;
+    } 
+}
+
+.address-section{
+    margin-bottom: 70px;
+    p{
+        font-weight: $font-weight-light;
+        a{
+            color: $success;
+            font-weight: $font-weight-light;
+        }
+    }
+}
